@@ -1,0 +1,25 @@
+*{
+     box-sizing: border-box;
+}
+
+header, section {
+     overflow-x: hidden;
+}
+
+header {
+     background-color: rgb(204, 103, 120);
+}
+
+header a {
+     font-family: var(--Sniglet-font);
+     font-size: 0.9em;
+     color: whitesmoke;
+}
+
+.dropdown-menu a:hover {
+     background-color: #ddd;
+}
+   
+.dropdown:hover .dropdown-menu {
+     display: block;
+}
